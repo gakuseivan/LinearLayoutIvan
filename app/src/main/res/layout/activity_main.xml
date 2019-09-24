@@ -4,25 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
         android:background="#fff000"
-        android:text="Hello World!" />
+        android:text="El texto ocupa mas" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
         android:background="#ff000f"
-        android:text="Hello World!" />
+        android:text="Acordeon Rojo" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:background="#f000ff"
-        android:text="Hello World!" />
+        android:text="            4              " />
 
 </LinearLayout>
